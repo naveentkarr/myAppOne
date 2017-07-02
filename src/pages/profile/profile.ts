@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
 @Component({
-  selector: 'page-home',
-  templateUrl: 'home.html'
+  selector: 'page-profile',
+  templateUrl: 'profile.html'
 })
-export class HomePage {
-slideImages = ['1.jpg', '2.jpg', '3.jpg'];
+export class ProfilePage {
+
   constructor(public navCtrl: NavController) {
 
   }
